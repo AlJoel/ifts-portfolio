@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio | [Tu Nombre]</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav container">
+        <h1 class="logo">[Tu Nombre]</h1>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="inicio section">
+    <div class="container">
+        <h2>Hola, soy <span class="resaltado">[Tu Nombre]</span></h2>
+        <p>Desarrollador Front End en formación, apasionado por crear experiencias digitales simples y efectivas.</p>
+        <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+</section>
+
+<section id="sobre-mi" class="sobre-mi section">
+    <div class="container">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante de Ingeniería en Sistemas, con interés en el desarrollo web y el diseño de interfaces.
+            Busco mejorar constantemente mis habilidades técnicas y creativas.
+        </p>
+    </div>
+</section>
+
+<section id="proyectos" class="proyectos section">
+    <div class="container">
+        <h2>Proyectos</h2>
+        <div class="grid-proyectos">
+            <article class="proyecto">
+                <img src="assets/img/proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto o práctica realizada.</p>
+            </article>
+            <article class="proyecto">
+                <img src="assets/img/proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Otro ejemplo de trabajo o experiencia relevante.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="contacto section">
+    <div class="container">
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <input type="text" id="nombre" placeholder="Joel" required>
+            <input type="email" id="email" placeholder="fakemail@mail.com" required>
+            <textarea id="mensaje" rows="5" placeholder="Escribime un mensaje..." required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2025 [Joel C. Alvarez]. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
