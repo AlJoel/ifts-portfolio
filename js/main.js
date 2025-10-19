@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <li>Comunicación con stakeholders y documentación técnica.</li>
         <li>Mentoría a desarrolladores juniors.</li>
       </ul>
-      <iframe src="https://www.youtube.com/watch?v=HRNpMfTs_3w" title="Ejemplo de liderazgo"></iframe>
+      <iframe src="https://www.youtube.com/embed/HRNpMfTs_3w" title="Ejemplo de liderazgo"></iframe>
     `,
         2: `
       <h2>Desarrollo Full Stack (PHP, JS, MySQL, HTML y CSS)</h2>
@@ -25,7 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <li>Maquetado con Flexbox y validaciones con JS.</li>
         <li>Integración de tareas asincrónicas mediante fetch y AJAX.</li>
       </ul>
-      <iframe src="https://www.w3schools.com/html/mov_bbb.mp4" title="Demo técnica"></iframe>
+        <video controls width="100%" poster="assets/img/proyecto2.jpg">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
     `
     };
 
