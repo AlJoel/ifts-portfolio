@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <li>Comunicación con stakeholders y documentación técnica.</li>
         <li>Mentoría a desarrolladores juniors.</li>
       </ul>
-      <iframe src="https://www.youtube.com/embed/kM3fOCtx1n0" title="Ejemplo de liderazgo"></iframe>
+      <iframe src="https://www.youtube.com/watch?v=HRNpMfTs_3w" title="Ejemplo de liderazgo"></iframe>
     `,
         2: `
       <h2>Desarrollo Full Stack (PHP, JS, MySQL, HTML y CSS)</h2>
