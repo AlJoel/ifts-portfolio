@@ -202,12 +202,19 @@ button.btn {
 }
 
 .social-links img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .social-links img:hover {
     transform: scale(1.15);
     opacity: 0.8;
+}
+.social-links img {
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px;
+    max-height: 30px;
 }
