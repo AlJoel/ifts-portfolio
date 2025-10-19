@@ -1,85 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio | Joel Alvarez</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/main.js"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Portfolio | Joel Alvarez</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
 
-<header class="header">
-    <nav class="nav container">
-        <h1 class="logo">Joel Alvarez</h1>
-        <ul class="nav-links">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+        <header class="header">
+            <nav class="nav container">
+                <h1 class="logo">Joel Alvarez</h1>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<section id="inicio" class="inicio section">
-    <div class="container">
-        <h2>Hola, soy <span class="resaltado">Joel Alvarez</span></h2>
-        <p>Desarrollador web en formación, apasionado por crear experiencias digitales simples y efectivas.</p>
-        <a href="#proyectos" class="btn">Ver mis proyectos</a>
-    </div>
-</section>
+        <section id="inicio" class="inicio section">
+            <div class="container">
+                <h2>Hola, soy <span class="resaltado">Joel Alvarez</span></h2>
+                <p>Desarrollador web en formación, apasionado por crear experiencias digitales simples y efectivas.</p>
+                <a href="#proyectos" class="btn">Ver mis proyectos</a>
+            </div>
+        </section>
 
-<section id="sobre-mi" class="sobre-mi section">
-    <div class="container">
-        <h2>Sobre mí</h2>
-        <p>
-            Soy estudiante de programación, con interés en el desarrollo web y el diseño de interfaces.
-            Busco mejorar constantemente mis habilidades técnicas y creativas.
-        </p>
-    </div>
-</section>
+        <section id="sobre-mi" class="sobre-mi section">
+            <div class="container">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy estudiante de programación, con interés en el desarrollo web y el diseño de interfaces.
+                    Busco mejorar constantemente mis habilidades técnicas y creativas.
+                </p>
+            </div>
+        </section>
 
-<section id="proyectos" class="proyectos section">
-    <div class="container">
-        <h2>Proyectos</h2>
-        <div class="grid-proyectos">
-            <article class="proyecto" data-proyecto="1">
-                <img src="assets/img/proyecto1.jpg" alt="Proyecto 1">
-                <h3>Gestión de Equipos y Liderazgo Técnico</h3>
-                <p>Dirección y coordinación de proyectos, liderazgo de equipo y planificación de entregas.</p>
-            </article>
+        <section id="proyectos" class="proyectos section">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <div class="grid-proyectos">
+                    <article class="proyecto" data-proyecto="1">
+                        <img src="assets/img/proyecto1.jpg" alt="Proyecto 1">
+                        <h3>Gestión de Equipos y Liderazgo Técnico</h3>
+                        <p>Dirección y coordinación de proyectos, liderazgo de equipo y planificación de entregas.</p>
+                    </article>
 
-            <article class="proyecto" data-proyecto="2">
-                <img src="assets/img/proyecto2.jpg" alt="Proyecto 2">
-                <h3>Desarrollo Full Stack</h3>
-                <p>Aplicación web usando PHP, JS, MySQL, HTML y CSS.</p>
-            </article>
+                    <article class="proyecto" data-proyecto="2">
+                        <img src="assets/img/proyecto2.jpg" alt="Proyecto 2">
+                        <h3>Desarrollo Full Stack</h3>
+                        <p>Aplicación web usando PHP, JS, MySQL, HTML y CSS.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal-proyecto" class="modal">
+            <div class="modal-contenido">
+                <span class="cerrar">&times;</span>
+                <div id="modal-body"></div>
+            </div>
         </div>
-    </div>
-</section>
 
-<div id="modal-proyecto" class="modal">
-    <div class="modal-contenido">
-        <span class="cerrar">&times;</span>
-        <div id="modal-body"></div>
-    </div>
-</div>
+        <section id="contacto" class="contacto section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="form-contacto">
+                    <input type="text" id="nombre" placeholder="Tu Nombre" required>
+                    <input type="email" id="email" placeholder="Tu mail" required>
+                    <textarea id="mensaje" rows="5" placeholder="Escribime un mensaje..." required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
 
-<section id="contacto" class="contacto section">
-    <div class="container">
-        <h2>Contacto</h2>
-        <form id="form-contacto">
-            <input type="text" id="nombre" placeholder="Tu Nombre" required>
-            <input type="email" id="email" placeholder="Tu mail" required>
-            <textarea id="mensaje" rows="5" placeholder="Escribime un mensaje..." required></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
-    </div>
-</section>
+        <footer class="footer">
+            <div class="container footer-content">
+                <p>© 2025 Joel Alvarez. Todos los derechos reservados.</p>
 
-<footer class="footer">
-    <p>© 2025 Joel Alvarez. Todos los derechos reservados.</p>
-</footer>
-
-</body>
+                <div class="social-links">
+                    <a href="https://instagram.com/tuusuario" target="_blank" aria-label="Instagram">
+                        <img src="assets/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="https://linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+                        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://youtube.com/@tuusuario" target="_blank" aria-label="YouTube">
+                        <img src="assets/icons/youtube.svg" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
